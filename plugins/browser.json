@@ -1,0 +1,49 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-battery-status": {
+      "PACKAGE_NAME": "Dictionary"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "Dictionary"
+    },
+    "cordova-plugin-media-capture": {
+      "PACKAGE_NAME": "Dictionary"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "Dictionary"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "Dictionary"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "Dictionary"
+    },
+    "cordova-plugin-globalization": {
+      "PACKAGE_NAME": "Dictionary"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "Dictionary"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "Dictionary"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "Dictionary"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "Dictionary"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "Dictionary"
+    }
+  }
+}
