@@ -41,6 +41,19 @@
     <!-- <link rel="stylesheet" type="text/css" href="css/index.css" /> -->
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <title>Navajo Dictonary</title>
+
+    <!-- import assets from the pdf to html dictionary -->
+    <link rel="stylesheet" href="dictionary/base.min.css"/>
+    <link rel="stylesheet" href="dictionary/fancy.min.css"/>
+    <link rel="stylesheet" href="dictionary/main.css"/>
+    <script src="dictionary/compatibility.min.js"></script>
+    <script src="dictionary/theViewer.min.js"></script>
+    <script>
+    try{
+    theViewer.defaultViewer = new theViewer.Viewer({});
+    }catch(e){}
+    </script>
+
 </head>
 
 <body>

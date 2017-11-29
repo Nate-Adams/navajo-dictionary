@@ -87,3 +87,22 @@ h1{display: inline-block;}
 }
 
 /*End Hamburger Menu Animation*/
+
+
+/*Over write the pdf to html's css*/
+
+#sidebar {
+  display: none;
+}
+
+.main-wrap #page-container {
+  background-color: inherit;
+  position: relative;
+}
+
+.main-wrap .pc {
+  display:block;
+  overflow: visible;
+}
+
+.pf{overflow:visible !important;}
