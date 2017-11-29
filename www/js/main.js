@@ -6,10 +6,10 @@ var menuActive = false;
 
 
 
-// $(function(){
-//      $(".dictionary").load("../dictionary/dictionary.html");
-//    });
-//
+$(function(){
+     $(".dictionary").load("../dictionary/dictionary.html");
+   });
+
 
 // Hamburger Menu Triggers and code
 
