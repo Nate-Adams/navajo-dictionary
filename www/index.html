@@ -46,13 +46,7 @@
     <link rel="stylesheet" href="dictionary/base.min.css"/>
     <link rel="stylesheet" href="dictionary/fancy.min.css"/>
     <link rel="stylesheet" href="dictionary/main.css"/>
-    <script src="dictionary/compatibility.min.js"></script>
-    <script src="dictionary/theViewer.min.js"></script>
-    <script>
-    try{
-    theViewer.defaultViewer = new theViewer.Viewer({});
-    }catch(e){}
-    </script>
+
 
 </head>
 
@@ -96,6 +90,13 @@
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript">
         app.initialize();
+    </script>
+    <script src="dictionary/compatibility.min.js"></script>
+    <script src="dictionary/theViewer.min.js"></script>
+    <script>
+    try{
+    theViewer.defaultViewer = new theViewer.Viewer({});
+    }catch(e){}
     </script>
 </body>
 

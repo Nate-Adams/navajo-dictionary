@@ -6,9 +6,9 @@ var menuActive = false;
 
 
 
-$(function(){
+// $(function(){
      $(".dictionary").load("../dictionary/dictionary.html");
-   });
+   // });
 
 
 // Hamburger Menu Triggers and code
