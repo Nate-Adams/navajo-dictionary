@@ -91,6 +91,12 @@ h1{display: inline-block;}
 
 /*Over write the pdf to html's css*/
 
+.dictionary #page-container {
+background-color: inherit;
+background-image: none;
+
+}
+
 #sidebar {
   display: none;
 }
